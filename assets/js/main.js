@@ -46,7 +46,7 @@ function onYouTubeIframeAPIReady() {
   const urlParams = new URLSearchParams(window.location.search);
   const videoId = urlParams.get('id');
 
-  if (videoId) {WwDOZ_IfdnA}
+  if (videoId) {WwDOZ_IfdnA
     window.player = new YT.Player('player', {
       videoId: videoId,
       playerVars: { 'autoplay': 0, 'controls': 0, 'loop': 1, 'playlist': videoId },
